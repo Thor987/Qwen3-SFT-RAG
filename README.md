@@ -3,8 +3,8 @@ Vertical domain Supervised Fine-Tuning, and Retrieval Augmented Generation for g
 
 ## 数据收集
 包括：论文摘要+开源论文全文+C4数据集+行业标准数据
-1. 地壳活动灾害 Crustal Activity Hazards (earthquake OR "seismic event" OR "seismic hazard" OR "earthquake hazard" ……
-2. 斜坡岩土体运动灾害 Slope and Rock-Soil Mass Movement Hazards (landslide OR "slope failure" OR "rockfall" OR "rock fall" …… 
+1. 地壳活动灾害 Crustal Activity Hazards (earthquake OR "seismic event" OR "seismic hazard"……)
+2. 斜坡岩土体运动灾害 Slope and Rock-Soil Mass Movement Hazards (landslide OR "slope failure" OR "rockfall"……) 
 3. 地面变形灾害 Ground Deformation Hazards (ground subsidence OR "land subsidence" OR "surface subsidence" ……
 4. 矿山与地下工程灾害 Mining and Underground Engineering Hazards ("mine fire" OR "coal spontaneous combustion" ……
 5. 城市地质灾害 Urban Geological Hazards ("urban geological hazard" OR "building foundation deformation" OR …… 
@@ -52,6 +52,24 @@ python ./src/generate_finetuning_data_for_generator_agent.py
 
 ## Qwen3 微调
 
-
+```bash
+# 使用LlamaFactory框架进行Qwen3的微调，环境配置llamafactory(0.9.4.dev0)
+# 微调脚本qwen_3_8b_lora_sft.yaml
+cd ./LLaMA-Factory/
+llamafactory-cli train examples/train_lora/qwen_3_8b_lora_sft.yaml
+```
+### 微调结果
+Data1：地质灾害相关问答（事实问答、开放性问答、推理问答、总结问答）
+![alt text](./fig/overall_comparison.png)
+![alt text](./fig/radar_charts.png)
+Data1：注册岩土工程师考试题库测试（单选题）
+| 模型	|正确率 |
+|-------|-------|
+| Gemini-2.0-flash | 66.27% |
+| DeepSeekR1-GeoGPT | 65.86% |
+| gpt-4o-2024-05-13 | 60.64% |
+| Qwen3_base | 61.45% |
+| Qwen3_lora | 66.27% |
 
 ## Qwen3 RAG系统构建
+
