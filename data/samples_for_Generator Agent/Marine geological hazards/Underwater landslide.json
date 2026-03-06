@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a question & answer task.",
+    "input": "What are the main causes of underwater landslides?",
+    "output": "The main causes of underwater landslides include sediment accumulation on steep continental slopes, seismic activity (earthquakes), volcanic activity, rapid sediment deposition from rivers, gas hydrate dissociation, storm-induced wave action, and human activities such as deep-sea drilling or underwater construction."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is an open-ended question task.",
+    "input": "What are the environmental and socio-economic impacts of underwater landslides?",
+    "output": "Underwater landslides can cause tsunamis, damage submarine cables and pipelines, disturb marine ecosystems, and alter seabed topography. Socio-economically, they can lead to loss of life, damage to coastal infrastructure, disruption of maritime transport, and economic losses in fisheries and offshore industries."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a summary question task.",
+    "input": "Underwater landslides are one of the common geological disasters. To solve the problem that discrete element PFC is difficult to simulate the underwater fluid environment, a computational method coupling computational fluid dynamics OpenFOAM and discrete element PFC is proposed. Aiming at the problem of scale similarity in fluid-structure coupling, a similarity method suitable for this coupling method was proposed and its feasibility was verified. The dynamic characteristics and accumulation morphology of underwater landslides based on this coupling method were analyzed through typical cases, and compared with the results of unidirectional coupled underwater landslides and onshore landslides. The results show that this coupling method can simulate the movement law of underwater landslides well, mainly manifested as a large thickness at the front end of the landslide body and an elliptical surface. The movement process and accumulation morphology of underwater landslides are quite different from those of onshore landslides. Compared with the unidirectional coupling method, the OpenFOAM-PFC bidirectional coupling has superiority.",
+    "output": "A computational method combining OpenFOAM (for fluid dynamics) and PFC (for discrete elements) effectively simulates underwater landslides. This bidirectional coupling addresses scale similarity issues and reproduces dynamic characteristics and accumulation morphology, showing a thick front and elliptical surface. Compared to onshore landslides and unidirectional models, this approach provides a more accurate representation of underwater landslide movement and deposition."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a reasoning question task.",
+    "input": "Analysis of the formation and development of underwater landslides",
+    "output": "Underwater landslides form due to a combination of geological, hydrodynamic, and environmental factors. Sediment accumulation on steep slopes can become unstable due to seismic shaking, rapid sediment deposition, or gas hydrate dissociation. Once initiated, the slide accelerates downslope under gravity, interacting with surrounding water, which influences its movement and deposition pattern. The development of underwater landslides depends on slope geometry, sediment properties, water pressure, and external triggers such as storms or human activities. Over time, these slides reshape the seabed, potentially triggering secondary hazards such as tsunamis."
+  }
+]

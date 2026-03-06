@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a question & answer task.",
+    "input": "What are the main causes of groundwater quality pollution?",
+    "output": "The main causes of groundwater quality pollution include: 1) Industrial discharge containing heavy metals, chemicals, and toxins; 2) Agricultural runoff with pesticides, fertilizers, and animal waste; 3) Improper disposal of domestic sewage and solid waste; 4) Leakage from landfills or storage tanks; 5) Mining activities releasing pollutants into the subsurface; 6) Over-extraction leading to intrusion of contaminated surface water or saline water."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is an open-ended question task.",
+    "input": "What are the environmental and health impacts of groundwater quality pollution?",
+    "output": "Environmental impacts include degradation of aquatic ecosystems, reduction of soil fertility, and contamination of connected surface water bodies. Health impacts include waterborne diseases, poisoning from heavy metals (such as arsenic or lead), gastrointestinal disorders, and long-term chronic illnesses due to prolonged exposure to chemical pollutants. Groundwater pollution also disrupts agricultural productivity and can affect food safety."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a summary question task.",
+    "input": "Groundwater is not only a valuable natural resource that provides drinking water for human survival and development, but it is also an active component of the natural environment. In today's pursuit of sustainable development, scientifically defining the concepts of groundwater and groundwater pollution is a prerequisite for researching groundwater pollution prevention and control, laying the foundation for further protection and effective development of groundwater resources. This chapter, based on a scientific definition of the concept of groundwater, comprehensively evaluates the resource value and environmental value of groundwater. Groundwater plays an indispensable role in human survival and development, industry, and agriculture, while also serving the functions of water source storage and water resource balance, making it a participant in the water cycle. Additionally, an overview of the status of groundwater resources in our country is provided, as understanding the overall situation of groundwater resources is crucial for in-depth analysis of groundwater pollution prevention and control issues, holding significant importance.",
+    "output": "Groundwater is a critical natural resource that supports human survival, development, agriculture, and industry. It also plays key roles in the environment, including water storage, maintaining hydrological balance, and participating in the water cycle. Understanding and scientifically defining groundwater and its pollution are essential for sustainable management, pollution prevention, and effective resource protection. Assessing the current status of groundwater resources provides a foundation for developing strategies to prevent and control contamination."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a reasoning question task.",
+    "input": "Analysis of the factors influencing groundwater contamination and its consequences",
+    "output": "Groundwater contamination is influenced by both natural and human factors. Natural factors include geological composition, hydrogeology, and soil permeability, which affect the movement and filtration of pollutants. Human activities such as industrial discharge, agricultural runoff, improper sewage disposal, and over-extraction significantly accelerate contamination. The consequences of groundwater pollution include environmental degradation, reduced water availability, threats to human health, loss of agricultural productivity, and economic costs associated with water treatment and ecosystem restoration. Effective prevention requires understanding these factors and implementing integrated management strategies."
+  }
+]

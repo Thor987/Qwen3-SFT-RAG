@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a question & answer task.",
+    "input": "What are the main causes of river water leakage?",
+    "output": "The main causes of river water leakage include: 1) Highly permeable riverbed materials such as sand and gravel; 2) Wide and shallow riverbeds that increase surface area for infiltration; 3) Irregular cross-sections creating zones of concentrated seepage; 4) Seasonal fluctuations in river flow that enhance infiltration during floods; 5) Human interventions such as river channelization or excessive water withdrawal that alter natural flow patterns."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is an open-ended question task.",
+    "input": "What are the environmental and economic impacts of river water leakage?",
+    "output": "Environmental impacts include reduced surface water availability, changes in aquatic ecosystems, lowered water levels in downstream areas, and alteration of groundwater levels which can affect soil moisture and vegetation. Economic impacts include loss of water resources for irrigation, industrial, and domestic use, increased costs for water management and artificial replenishment, and potential damage to infrastructure like canals, reservoirs, or hydropower systems."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a summary question task.",
+    "input": "The Dagu River features a wide and shallow sandy riverbed, with an irregular cross-section and strong permeability, often remaining in a state of desiccation. The leakage recharge during flood periods directly affects both the flood flow and the amount of groundwater recharge. According to data from 1981 to 1989, except for 1985, the river experienced interruptions during most periods, with all the water between Nancun and Nanzhangyuan infiltrating to recharge the groundwater. During the water release experiments from 1981 to 1989, the majority of the total water released was infiltrated water, which ultimately recharged the groundwater. Long-term hydrological observation data indicates that the Dagu River is a typical seasonal river, characterized by high peak floods and rapid rises and falls. During the flow or flood periods, the leakage from the river channel is significant, especially during the flood season, where most of the water loss along the route is attributed to river channel leakage.",
+    "output": "The Dagu River, with its wide, shallow, sandy, and permeable riverbed, experiences significant leakage, particularly during floods. Most of the water released between Nancun and Nanzhangyuan infiltrates into the groundwater. Long-term data confirm it as a seasonal river with rapid flow changes, where river channel leakage is the main cause of water loss, playing a key role in groundwater recharge."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a reasoning question task.",
+    "input": "Analysis of the factors contributing to river water leakage and its consequences",
+    "output": "River water leakage is primarily influenced by the permeability of riverbed materials, the river's geometry (width, depth, and cross-sectional irregularity), seasonal flow variations, and human interventions such as water extraction or channel modifications. High-permeability sandy or gravelly beds allow more water to infiltrate, while wide and shallow channels increase surface exposure. Seasonal floods enhance leakage due to higher water volumes. The consequences include reduced surface water availability, alterations to ecosystems, lowered downstream flow, and economic impacts such as irrigation deficits, increased water management costs, and potential infrastructure damage. However, this leakage can also be beneficial, contributing to groundwater recharge and maintaining aquifer levels."
+  }
+]

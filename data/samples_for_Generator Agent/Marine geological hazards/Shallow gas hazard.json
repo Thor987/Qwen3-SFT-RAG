@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a question & answer task.",
+    "input": "What are the main causes of shallow gas hazards?",
+    "output": "Shallow gas hazards are primarily caused by the accumulation of natural gas in shallow sedimentary layers. This accumulation can result from the decomposition of organic matter, migration of deeper hydrocarbon gases, and trapping in porous sediment layers. Additional contributing factors include rapid sediment deposition, overpressure development, and geological structures such as faults and folds that create localized gas pockets."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is an open-ended question task.",
+    "input": "What are the environmental and safety impacts of shallow gas hazards?",
+    "output": "Shallow gas hazards can pose significant environmental and safety risks. Environmentally, sudden gas releases can disrupt marine ecosystems, alter sediment stability, and release greenhouse gases. From a safety perspective, shallow gas pockets can lead to submarine landslides, explosions during drilling or pipeline construction, and structural damage to offshore infrastructure, putting personnel and equipment at risk."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a summary question task.",
+    "input": "Shallow gas enrichment areas are primarily distributed in the steep underwater slopes and the filling sediment layers of the low-lying troughs at the foot of the slope. The pressure of shallow gas is not high, and large escape landforms have not formed; however, potential risks still need to be considered during projects such as submarine pipeline laying and infrastructure construction. In the shallow geological profile, the shallow gas zones appear in deep black tones, and the seabed geological structure is locally shielded, indicating the presence of gas-filled pores in these areas.",
+    "output": "Shallow gas hazards are mainly found in steep underwater slopes and sediment-filled troughs. Although the gas pressure is low and large escape features are absent, gas-filled pores pose potential risks to offshore construction projects, particularly submarine pipelines. Geological indicators, such as deep black zones and locally shielded seabed structures, highlight the presence of shallow gas."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a reasoning question task.",
+    "input": "Analysis of the formation mechanisms and risk factors of shallow gas hazards in sedimentary basins",
+    "output": "Shallow gas in sedimentary basins forms primarily through the breakdown of organic matter under low-temperature and shallow burial conditions, leading to methane and other light hydrocarbons. Gas can migrate upwards from deeper layers and become trapped in low-permeability sediments or faults. Key risk factors include rapid sediment deposition that traps gas pockets, faulting and folding that create localized overpressure zones, and human activities such as drilling or pipeline construction that may trigger gas release. While pressures are generally low, the presence of gas-filled pores can cause localized instability and hazards during excavation or construction."
+  }
+]

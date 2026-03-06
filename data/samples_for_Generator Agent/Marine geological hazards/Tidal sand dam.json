@@ -1,0 +1,22 @@
+[
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a question & answer task.",
+    "input": "What are the main causes of tidal sand dam",
+    "output": "Tidal sand dams are mainly caused by the interaction of tidal currents, wave action, and sediment supply. Strong tidal currents deposit sand in shallow areas, while waves redistribute and sort the sediment, forming dams at tidal channel mouths or in lagoons. Coastal sediment transport and local geomorphology also influence their formation."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is an open-ended question task.",
+    "input": "What are the environmental and socio-economic impacts of tidal sand dam hazards?",
+    "output": "Environmental impacts include disruption of natural tidal flow, sediment accumulation in intertidal zones, alteration of estuarine habitats, and changes in water salinity and quality. Socio-economic impacts include reduced navigability of channels, increased flood risk, impacts on fisheries and aquaculture, and potential damage to coastal infrastructure."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a summary question task.",
+    "input": "Laolonggou is a typical sanddam-lagoon-type tidal channel with a complete geomorphic structure of the tidal channel. The tidal current force is the strongest at the entrance of Laolonggou, with a deep trough of -20 meters developed. A complete multi-level waterway system is developed on the tidal current delta inside the entrance. The low tide delta outside the mouth gate ends at a depth of -11 meters. It is marked by a protruding end dam. The main low tide waterway develops on the east side of the low tide delta, while a wide buffer flow platform develops on the west side. The main channel of low tide is dominated by low tide, while the tidal force on the impulse platform is the weakest. The sediment is mainly silty clay. The sediment on the separated sand dam and the end dam is mainly sandy, demonstrating the secondary sorting effect of waves. The topographic comparison from 1945 to 2006 shows the mixed control effect of waves and tidal currents on the geomorphic evolution of Laolonggou. The eastward waves cause the migration of the outer sand dam and the dividing sand dam, forcing the change of the direction of the low tide jet flow and causing the oscillation of the low tide channel. The coastal sediment flow from east to west within the broken wave zone enters the channel from the upper reaches of Laolonggou, and part of it accumulates in the intertidal zone of the lagoon inside the mouth gate. The vast majority of the sediment accumulates in the Laolonggou Low Tide Delta.",
+    "output": "Laolonggou is a sanddam-lagoon-type tidal channel shaped by strong tidal currents and wave action. Sediments vary from silty clay in the tidal channel to sand in the sand dams, showing wave-induced sorting. Tidal and wave interactions drive sand dam migration, low tide channel oscillation, and sediment accumulation, illustrating the combined influence of tidal currents, waves, and coastal sediment flow on geomorphic evolution."
+  },
+  {
+    "instruction": "You are a helpful geological disaster assistant. This is a reasoning question task.",
+    "input": "Analysis of the formation mechanisms and risk factors of tidal sand dam hazards",
+    "output": "Formation mechanisms of tidal sand dams include sediment deposition from strong tidal currents, wave-induced sediment sorting, and coastal sediment transport. Risk factors include high sediment supply, strong tidal currents, storm-induced wave action, and human interventions such as dredging or construction. These factors can accelerate sand dam formation, channel blockage, and increased flooding or navigation hazards."
+  }
+]
