@@ -1,4 +1,5 @@
-################
+# 使用Dataverse预处理论文数据
+# 包括文本清洗、分块、语言过滤等步骤，最终保存为Parquet格式供后续使用。
 from omegaconf import OmegaConf
 import re
 import pyspark.sql.functions as F
