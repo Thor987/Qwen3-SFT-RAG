@@ -62,7 +62,7 @@ llamafactory-cli train examples/train_lora/qwen_3_8b_lora_sft.yaml
 Data1：地质灾害相关问答（事实问答、开放性问答、推理问答、总结问答）
 ![alt text](./figs/overall_comparison.png)
 ![alt text](./figs/radar_charts.png)
-Data1：注册岩土工程师考试题库测试（单选题）
+Data2：注册岩土工程师考试题库测试（单选题）
 | 模型	|正确率 |
 |-------|-------|
 | Gemini-2.0-flash | 66.27% |
@@ -73,3 +73,10 @@ Data1：注册岩土工程师考试题库测试（单选题）
 
 ## Qwen3 RAG系统构建
 
+```bash
+# 构建基于Qwen3的RAG系统，使用ChromaDB作为向量数据库，FAISS作为检索工具
+# 构建向量数据库，使用Qwen3-Embedding-4B模型进行文本嵌入
+python ./src/build_database.py
+# 构建RAG系统，使用Qwen3-8B-Lora-SFT模型作为生成器，ChromaDB进行检索, Qwen3-Reranker-4B
+python ./src/qwen3_rag.py
+```
