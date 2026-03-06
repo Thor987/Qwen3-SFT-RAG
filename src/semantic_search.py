@@ -3,7 +3,7 @@
 
 该模块实现了基于Sentence-BERT的语义检索系统，用于：
 1. 将所有专家标注数据编码为向量，并使用FAISS构建索引。
-2. 从./collect_data/merged_data.jsonl文件中高效检索语义上最匹配的文本数据。
+2. 从./data/collect_data/merged_data.jsonl文件中高效检索语义上最匹配的文本数据。
 """
 
 import json
@@ -26,7 +26,7 @@ logger = logging.getLogger(__name__)
 class SemanticSearcher:
     """地质灾害语义检索模型"""
     
-    def __init__(self, merged_data_path: str = "./collect_data/merged_data.jsonl", model_name: str = 'all-MiniLM-L6-v2'):
+    def __init__(self, merged_data_path: str = "./data/collect_data/merged_data.jsonl", model_name: str = 'all-MiniLM-L6-v2'):
         self.merged_data_path = Path(merged_data_path)
         logger.info(f"正在加载语义模型: {model_name} (这可能需要一些时间)...")
         self.model = SentenceTransformer(model_name)
@@ -226,4 +226,5 @@ def main():
 
 
 if __name__ == "__main__":
+
     main()
