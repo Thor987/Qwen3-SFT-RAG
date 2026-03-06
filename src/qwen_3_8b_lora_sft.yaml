@@ -1,0 +1,49 @@
+## model
+model_name_or_path: path/to/Qwen3-8b
+trust_remote_code: true
+#
+#### method
+stage: sft
+do_train: true
+finetuning_type: lora
+#finetuning_type: freeze
+#freeze_trainable_modules: all
+#use_llama_pro: true
+lora_rank: 128                 # 容纳更多专业知识
+lora_alpha: 256               # alpha 通常为 rank 的 2 倍
+lora_target: all
+lora_dropout: 0.05             # 增加 dropout 防止过拟合
+#flash_attn:  auto
+#max_grad_norm: 1.0
+#
+#### dataset
+dataset: final_data           # 之前预处理好的数据集,49,776条地质灾害问答数据和51,699条alpaca-gpt4-data-en 数据
+template: qwen3
+enable_thinking: false
+cutoff_len: 2048              # 防止解析截断
+preprocessing_num_workers: 16
+dataloader_num_workers: 4
+#
+#### output
+output_dir: /path/to/qwen3_8b_lora/
+logging_steps: 10
+save_steps: 300               
+plot_loss: true
+save_only_model: false
+overwrite_output_dir: true
+#
+#### train
+per_device_train_batch_size: 6
+gradient_accumulation_steps: 8 # 总 batch 为 48
+learning_rate: 2e-4           # 大学习率
+num_train_epochs: 1           # 小 epoch 
+lr_scheduler_type: cosine
+warmup_ratio: 0.05
+bf16: true
+ddp_timeout: 180000000
+#
+#### eval
+val_size: 0.01              # 小验证集
+per_device_eval_batch_size: 1
+eval_strategy: steps
+eval_steps: 300
