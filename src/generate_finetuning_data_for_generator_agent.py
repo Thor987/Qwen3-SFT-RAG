@@ -1,4 +1,4 @@
-# ./sft_samples/data/文件夹下存放了12个文件夹（目前仅有6个），对应12种地质灾害，子文件夹则是具体的子灾害类型（json）
+# ./data/samples_for_Generator Agent/文件夹下存放了12个文件夹，对应12种地质灾害，子文件夹则是具体的子灾害类型（json）
 # 请使用gpt-4o-mini模型进行样本扩增，调用方法见LLM_API.py
 # 要求1、设计合适的提示词，英文
 # 要求2、在指导时加入适当的示例，示例要包括原始人工撰写的样本两个（该种灾害该种问题人工编写的案例+其他灾害该种问题人工编写的案例（随机））
@@ -7,7 +7,7 @@
 # 其中instruction指明问题类型，You are a helpful geological disaster assistant. This is a {question} task.
 # 包括question & answer, open-ended question, summary question, reasoning question四类问题
 # 现在需要给每大类地质灾害的每种子灾害生成四类问题各10个样本，务必保持与人工编写的样本格式相同
-# 扩增样本存放在 ./sft_samples/output/<disaster_type>/<sub_disaster_type>/ 目录下
+# 扩增样本存放在 ./output/sft_samples/output/<disaster_type>/<sub_disaster_type>/ 目录下
 import os
 import json
 import random
@@ -15,8 +15,8 @@ from LLM_API import LLM
 
 class SampleAmplifier:
     def __init__(self):
-        self.data_path = "../sft_samples/data"
-        self.output_path = "../sft_samples/output"
+        self.data_path = "./data"
+        self.output_path = "./output"
         self.question_types = [
             "question & answer",
             "open-ended question", 
@@ -274,4 +274,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
