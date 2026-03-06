@@ -80,3 +80,9 @@ python ./src/build_database.py
 # 构建RAG系统，使用Qwen3-8B-Lora-SFT模型作为生成器，ChromaDB进行检索, Qwen3-Reranker-4B
 python ./src/qwen3_rag.py
 ```
+
+Data2：注册岩土工程师考试题库测试（单选题）
+| 模型	|正确率 |
+|-------|-------|
+| Qwen3_base_rag | ??% |
+| Qwen3_lora_rag | ??% |
