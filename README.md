@@ -17,7 +17,6 @@ Vertical domain Supervised Fine-Tuning, and Retrieval Augmented Generation for g
 12. 水源枯竭灾害 Water Source Depletion Hazards ("river water loss" OR "river water depletion" OR "spring drying up" OR "spring depletion……
 
 ## 开源论文链接获取
-```
-bash
+```bash
 python ./src/get_pdf_links.py
 ```
