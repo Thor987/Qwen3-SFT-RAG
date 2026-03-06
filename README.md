@@ -84,5 +84,5 @@ python ./src/qwen3_rag.py
 Data2：注册岩土工程师考试题库测试（单选题）
 | 模型	|正确率 |
 |-------|-------|
-| Qwen3_base_rag | ??% |
-| Qwen3_lora_rag | ??% |
+| Qwen3_base_rag | 79.92%% |
+| Qwen3_lora_rag | 69.88%% |
