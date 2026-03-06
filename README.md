@@ -18,5 +18,40 @@ Vertical domain Supervised Fine-Tuning, and Retrieval Augmented Generation for g
 
 ## 开源论文链接获取
 ```bash
+# 批量获取PDF链接，后续使用下载工具根据链接下载论文PDF
 python ./src/get_pdf_links.py
 ```
+
+## 数据预处理
+```bash
+# 预处理PDF文件，提取文本内容并保存为TXT格式，再转换为Parquet格式，
+python ./src/pdf2txt2parquet.py
+# 进一步清洗和处理文本数据，最终生成用于训练和检索的Parquet文件
+python ./src/parquet_process.py
+# 将所有文献数据和关键词过滤的C4数据合并，构建最终的训练和检索数据集jsonl格式
+python ./src/merge_all_training_data.py
+```
+
+## 微调数据集构建
+```bash
+## Extractor_Agent
+
+# 人工编写49x20=980条相关语料（来源：论文查阅）存放在./data/annotation_data_expert/目录下
+# LLM语料扩增49x185=9,065，共计10k高质量语料数据（分地质灾害大类、小类）存放在./data/annotation_data_llm/目录下
+# 基于上述两部分数据，从merged_data.jsonl进一步检索地质灾害主题相关的语料，构建Extractor_Agent的微调数据集
+python ./src/semantic_search.py
+# 基于语义检索得到的样本片段发送给gpt-40-mini，进行微调数据生成
+# python ./src/XXX
+
+## Generator Agent 
+
+# 人工编写49x4=196条微调数据格式样例存放在./data/samples_for_Generator Agent/目录下
+# 基于上述样例数据，使用gpt-40-mini进行微调数据生成，构建Generator Agent的微调数据集
+python ./src/generate_finetuning_data_for_generator_agent.py
+```
+
+## Qwen3 微调
+
+
+
+## Qwen3 RAG系统构建
