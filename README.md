@@ -60,8 +60,8 @@ llamafactory-cli train examples/train_lora/qwen_3_8b_lora_sft.yaml
 ```
 ### 微调结果
 Data1：地质灾害相关问答（事实问答、开放性问答、推理问答、总结问答）
-![alt text](./fig/overall_comparison.png)
-![alt text](./fig/radar_charts.png)
+![alt text](./figs/overall_comparison.png)
+![alt text](./figs/radar_charts.png)
 Data1：注册岩土工程师考试题库测试（单选题）
 | 模型	|正确率 |
 |-------|-------|
